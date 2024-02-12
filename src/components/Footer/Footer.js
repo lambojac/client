@@ -1,86 +1,104 @@
-import './Footer.css'
-import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
-import EmailIcon from '@mui/icons-material/Email';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
+import './Footer.css';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import TelegramIcon from '@mui/icons-material/Telegram';
-import PinterestIcon from '@mui/icons-material/Pinterest';
 
 const Footer = () => {
     return ( 
         <footer>
             <div className="footer__container">
-                <div className="footer__items__container">
-                    <div className="footer__help__container">
-                        <div className="footer__help__header">
-                            <h1>Help</h1>
-                        </div>
-                        <ul className="fotter__help__links">
-                            <li className="help__link">
-                                <a href="/"> Shipping</a>
-                            </li>
-                            <li className="help__link">
-                                <a href="/">Refund</a>
-                            </li>
-                            <li className="help__link">
-                                <a href="/">FAQ</a>
-                            </li>
-                            <li className="help__link">
-                                <a href="/">Accessiblity</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="footer__contact__container">
-                        <div className="footer__contact__header">
-                            <h1>Contact Us</h1>
-                        </div>
-                        <ul className="footer__contacts">
-                            <li className="footer__contact">
-                                <LocalPhoneIcon /> <span>+123 4567 890</span>
-                            </li>
-                            <li className="footer__contact">
-                                <EmailIcon /> <span>shop@shema.com</span>
-                            </li>
-                            <li className="footer__contact">
-                                <LocationOnIcon /> <span>Addis Ababa, Ethiopia</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="footer__social__link__container">
-                        <div className="footer__social__link__header">
-                            <h1>Stay Connected</h1>
-                        </div>
-                    <ul className="footer__social__links">
-                            <li className="social__link">
-                                <TwitterIcon />
-                            </li>
-                            <li className="social__link">
-                                <InstagramIcon />
-                            </li>
-                            <li className="social__link">
-                                <YouTubeIcon />
-                            </li>
-                            <li className="social__link">
-                                <TelegramIcon />
-                            </li>
-                            <li className="social__link">
-                                <PinterestIcon />
-                            </li>
-                        </ul>
-                    </div>
+                <div className="footer__social__links">
+                    <FacebookIcon className="social__link" />
+                    <TwitterIcon className="social__link" />
+                    <InstagramIcon className="social__link" />
+                    <YouTubeIcon className="social__link" />
                 </div>
-                <div className="fotter__copyright__container">
-                    <ul className='nav'>
-                        <li className="footer__copyright">©2022 Shema Ltd. |</li>
-                        <li className="footer__terms__condition"> | Terms & Condition |</li>
-                        <li className="footer__privacy__policy">| Privacy Policy</li>
+                <div className="footer__links">
+                    <ul className="footer__links__list">
+                        <li><a href="/">Site terms and policies</a></li>
+                        <li><a href="/">Community standards</a></li>
+                        <li><a href="/">Privacy policy</a></li>
+                        <li><a href="/">Terms</a></li>
+                        <li><a href="/">Cookie policy</a></li>
+                        <li><a href="/">Virtual reality</a></li>
+                        {/* Add more links as needed */}
                     </ul>
-                     </div>
+                </div>
+                <div className="footer__links">
+                    <ul className="footer__links__list">
+                        <li><a href="/">Shop Meta Quest</a></li>
+                        <li><a href="/">Refurbished Meta Quest 2</a></li>
+                        <li><a href="/">Meta Warranty Plus</a></li>
+                        <li><a href="/">VR for Good</a></li>
+                        <li><a href="/">Forums</a></li>
+                        <li><a href="/">Referrals</a></li>
+                        <li><a href="/">Blog</a></li>
+                        <li><a href="/">Creators</a></li>
+                        {/* Add more links as needed */}
+                    </ul>
+                </div>
+                <div className="footer__links">
+                    <ul className="footer__links__list">
+                        <li><a href="/">Download SDKs</a></li>
+                        <li><a href="/">Developers</a></li>
+                        <li><a href="/">Made for Meta partner program</a></li>
+                        <li><a href="/">Safety information for parents & pre-teens</a></li>
+                        <li><a href="/">Meta Quest health & safety information</a></li>
+                        <li><a href="/">Meta Quest safety center</a></li>
+                        <li><a href="/">Meta for Work</a></li>
+                        <li><a href="/">Meta Avatars</a></li>
+                        <li><a href="/">Smart glasses</a></li>
+                        <li><a href="/">Shop Ray-Ban Meta smart glasses</a></li>
+                        <li><a href="/">Ray-Ban Stories</a></li>
+                        <li><a href="/">Privacy information</a></li>
+                        <li><a href="/">Supported countries</a></li>
+                        {/* Add more links as needed */}
+                    </ul>
+                </div>
+                <div className="footer__links">
+                    <ul className="footer__links__list">
+                        <li><a href="/">Support and legal</a></li>
+                        <li><a href="/">Meta Help Center</a></li>
+                        <li><a href="/">Order status</a></li>
+                        <li><a href="/">Returns</a></li>
+                        <li><a href="/">Find a product demo</a></li>
+                        <li><a href="/">Legal</a></li>
+                        <li><a href="/">Terms of sale</a></li>
+                        <li><a href="/">Our actions</a></li>
+                        <li><a href="/">Data and privacy</a></li>
+                        <li><a href="/">Safety and expression</a></li>
+                        <li><a href="/">Responsible business practices</a></li>
+                        <li><a href="/">Elections</a></li>
+                        <li><a href="/">COVID-19 response</a></li>
+                        <li><a href="/">Regulations</a></li>
+                        {/* Add more links as needed */}
+                    </ul>
+                </div>
+                <div className="footer__links">
+                    <ul className="footer__links__list">
+                        <li><a href="/">About us</a></li>
+                        <li><a href="/">About Meta</a></li>
+                        <li><a href="/">Media gallery</a></li>
+                        <li><a href="/">Brand resources</a></li>
+                        <li><a href="/">For investors</a></li>
+                        <li><a href="/">Our community</a></li>
+                        <li><a href="/">Support SMB</a></li>
+                        <li><a href="/">Giving together</a></li>
+                        <li><a href="/">Social impact</a></li>
+                        <li><a href="/">App support</a></li>
+                        <li><a href="/">Facebook Help Center</a></li>
+                        <li><a href="/">Messenger Help Center</a></li>
+                        <li><a href="/">Instagram Help Center</a></li>
+                        <li><a href="/">WhatsApp Help Center</a></li>
+                        <li><a href="/">Workplace Help Center</a></li>
+                        <li><a href="/">Meta Verified</a></li>
+                        {/* Add more links as needed */}
+                    </ul>
+                </div>
             </div>
         </footer>
-     );
+    );
 }
- 
+
 export default Footer;
